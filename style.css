@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgb(229, 228, 228);
+    height: 40px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    width: auto;
+    list-style: none;
+    background: grey;
+    position: relative;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    
+
+}
+.menu a:hover {
+    background: #808291;
+
+}
+
+.menu ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+}
+
+.menu li:hover ul{
+    display: block;
+    
+}
