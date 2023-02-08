@@ -24,20 +24,27 @@
 
 }
 .menu a:hover {
-    background: #808291;
+    background: #8d8e8f;
 
 }
-.menu ul{
+.submenu{
     position: absolute;
     left: 0;
     top: 100%;
-    display: none;
+    /*display: none;  */
     padding: 0;
+    visibility: hidden;
 }
 .menu li:hover ul{
     display: block;
-    
+    visibility: visible;
 }
+
+
+
+/*Модальное окно*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -57,7 +64,8 @@ body{
     display: -o-flex ;
     display: flex ;
     justify-content: center;
-    padding: 100px;
+    margin-top: 120px;
+    padding: 1px;
 
     align-items: center;
 }
